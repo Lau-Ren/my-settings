@@ -2,7 +2,7 @@
 
 
 ##Windows
-  *Bash*
+  **Bash**
   
     `
     #!/bin/bash
@@ -29,16 +29,16 @@
   
   alias ws='cd ~/LaurenProjects/Storm/'
   `
-*Webstorm*
+*Webstorm**
 
 
 
 
 ##Linux
-*Bash*
-*Sublime*
+ **Bash**
+ **Sublime**
 
 
 ##Mac
-*Bash*
-*Sublime*
+ **Bash**
+ **Sublime**

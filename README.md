@@ -35,7 +35,10 @@
 
 
 ##Linux
- **Bash**
+ **Zsh**
+ `
+ ZSH_THEME="af-magic"
+ `
  **Sublime**
 
 

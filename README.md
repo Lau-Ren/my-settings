@@ -5,7 +5,7 @@
   **Bash**
 
 ```
-     #!/bin/bash
+   #!/bin/bash
 
    # change to directory that contains arg
    gto() {
@@ -62,19 +62,22 @@
    alias demo='grunt build && grunt serve'
 
 ```
-*Webstorm**
 
-
+**Webstorm**
 
 
 ##Linux
  **Zsh**
+ 
  `
  ZSH_THEME="af-magic"
  `
- **Sublime**
+
+**Sublime**
 
 
 ##Mac
+
  **Bash**
+ 
  **Sublime**

@@ -1,12 +1,22 @@
 # my-shortcuts
 
+## Other
 
-##Windows
+```
+
+#!/bin/bash
+/usr/bin/rdesktop -a 16 -g 1366x708  -r disk:linux=/home/lauren/workspace/rdesk -u BIS2\\collsl 172.16.2.128
+
+exit 0
+
+```
+
+## Windows
   **Bash**
 
 ```
-   #!/bin/bash
-
+   #!/bin/bashhomeh
+homfff
    # change to directory that contains arg
    gto() {
      RED='\033[0;31m'

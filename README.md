@@ -2,9 +2,12 @@
 
 ## Other
 
+ rdesktop.sh
+
 ```
 
 #!/bin/bash
+#open rdesktop with dimensions speficied, and create shared dir 
 /usr/bin/rdesktop -a 16 -g 1366x708  -r disk:linux=/home/lauren/workspace/rdesk -u BIS2\\collsl 172.16.2.128
 
 exit 0
@@ -14,9 +17,11 @@ exit 0
 ## Windows
   **Bash**
 
+  .bash_profile
+  
 ```
-   #!/bin/bashhomeh
-homfff
+   #!/bin/bash
+
    # change to directory that contains arg
    gto() {
      RED='\033[0;31m'
@@ -32,9 +37,6 @@ homfff
      else
          echo -e "${RED}$1 is not a dir${NC}"
      fi
-
-
-
    }
 
    # open current dir in webstorm
@@ -51,25 +53,20 @@ homfff
 
    export PATH="$PATH:/c/Python27"
 
-   alias ws="cd LaurenProjects/Storm/"
    alias gs="git status"
    alias ga="git add"
-   alias gb="git branch"
+   alias gb="git checkout -b"
    alias gd="git diff"
    alias gc="git commit"
    alias gcm="git commit -m"
    alias gco="git checkout"
    alias push="git push"
+   alias pull="git pull"
 
-
-   alias ws='cd ~/LaurenProjects/Storm/'
+   #change to alias ws='cd ~/workspace/'
+   alias ws='cd ~/LaurenProjects/'
+   alias storm="cd ~/LaurenProjects/storm/"
    alias cl='clear'
-
-   alias build= 'grunt build'
-   alias serve='grunt serve'
-   alias gbs='grunt build && grunt serve'
-
-   alias demo='grunt build && grunt serve'
 
 ```
 
